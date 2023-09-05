@@ -4,7 +4,6 @@ import Rocket from '../../assets/images/rocket.png'
 import To from '../../assets/images/to.png'
 import Do from '../../assets/images/do.png'
 import { PlusCircle, Circle, Trash2, Check } from 'lucide-react-native';
-import PurpleCircle from '../../assets/svgs/purple-circle.svg'
 
 const index = () => {
     return (
@@ -21,7 +20,7 @@ const index = () => {
                     <TextInput
                         placeholder='Adicione uma nova tarefa'
                         placeholderTextColor="#808080"
-                        className="flex items-center p-4 w-[280px] h-14 rounded-md bg-gray-50 border-2 border-gray-70 text-gray-30 focus:border-2 focus:border-purple-dark" />
+                        className="flex items-center p-4 w-[280px] h-14 rounded-md bg-gray-50 border-2 border-gray-70 text-gray-10 focus:border-2 focus:border-purple-dark" />
                     <TouchableOpacity activeOpacity={.8} className="flex justify-center items-center w-14 h-14 bg-blue-500 rounded-md">
                         <PlusCircle size={25} strokeWidth={2} color='#F2F2F2' />
                     </TouchableOpacity>
